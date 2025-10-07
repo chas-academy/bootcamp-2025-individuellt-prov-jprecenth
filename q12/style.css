@@ -1,3 +1,15 @@
 body {
   margin: 0;
+  padding: 50px;
+  background-color: rgb(200, 71, 114);
+  h1 {
+    color: white;
+  }
+  p:first-of-type {
+    font-style: italic;
+  }
+  p:last-of-type {
+    color: white;
+  }
 }
+

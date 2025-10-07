@@ -4,5 +4,6 @@ body {
 
 .container {
   height: 100vh;
-  background-color: #d6f4ff;
+  width: 100vw;
+  background-color: red;
 }
