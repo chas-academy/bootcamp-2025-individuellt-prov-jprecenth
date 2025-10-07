@@ -13,14 +13,17 @@ const data = [
   },
 ];
 
-// returna namnet i samtliga objekt i arrayen
-const getName = (person) => {};
-
-// lämna denna orörd
-export const getAllNames = () => {
-  let names = [];
-  data.forEach((person) => {
-    names.push(getName(person));
-  });
-  return names;
+// returnera namnet i objektet som funktionen tar emot
+const getName = (person) => {
+    return (data[person].name);
 };
+  
+// lämna denna orörd
+  export const getAllNames = () => {
+    let names = [];
+    data.forEach((person) => {
+      names.push(getName(person));
+    });
+    return names;
+  };
+  

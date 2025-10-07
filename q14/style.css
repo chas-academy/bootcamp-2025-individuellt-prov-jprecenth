@@ -7,9 +7,18 @@
 .container {
   padding: 2rem;
   display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+  align-items: end;
 }
 
 .box {
   padding: 1rem;
   background-color: #cdf2d7;
+  aspect-ratio: 1/1;
+}
+
+.box:first-child {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }

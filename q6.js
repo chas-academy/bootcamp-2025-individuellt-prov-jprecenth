@@ -1,6 +1,7 @@
 // fixa den här funktionen så att den räknar matte
 
 export const mathEquation = (a) => {
-  const b = "2";
-  return a + b;
+  const b = 2;
+  return (a + b);
 };
+

@@ -2,7 +2,16 @@
 
 export function combineStrings(strings) {
   let result = "";
-  strings.forEach((string) => {});
+  strings.forEach((string) => {
+    result = result + string + " ";
+  });
 
   return result;
 }
+
+const data = [
+  "Grodor är söta!",
+  "Grodor är små!",
+  "Grodor kan vara gröna!"
+]
+
